@@ -1,8 +1,6 @@
 #include <iostream>
-//#include <sstream>
 #include <fstream>
 #include <iomanip>
-//#include <math.h>
 
 double map (double D)
 {
@@ -25,7 +23,7 @@ int main()
     ofstr << "# N Mean" << std::endl;
 
     double N;
-    double sumValues;
+    double sumValues = 0;
     int i = 0;
     while (ifstr >> N)
     {
